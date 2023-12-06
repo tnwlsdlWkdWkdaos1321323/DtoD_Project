@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* 프리텐다드 : https://noonnu.cc/font_page/694 */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+/* 디자인 하우스: https://noonnu.cc/font_page/89 */
+@font-face {
+  font-family: 'designhouseOTFLight00';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.antitle{
+    font-family: 'designhouseOTFLight00';
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.anWriteParent{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 80px;
+}
+.anwrite{
+    font-family: 'Pretendard-Regular';
+    color: #FCD9D7;
+    font-size: 1.2rem;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.anwrite:hover{
+    text-decoration: none;
+    color: #50B7CD;
+}
+.anwrite a{
+  text-decoration: none;
+}
+
+.antop{
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.anTextLeft{
+  text-align: left;
+}
+.anTextCenter{
+  text-align: left;
+  box-sizing: border-box;
+  margin-left: 30px;
+} 
+.anTextWriter{
+  padding: 0 !important;
+}
+
+.anItem{
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #aaa;
+  /* background-color: #50B7CD;
+  color: #0F1A25; */
+}
+.anNum{
+  font-weight: bold;
+}
+.anLink{
+  color: #fff !important;
+  text-decoration: none;
+}
+.anLink:hover{
+  text-decoration: none;
+  color: #FCD9D7 !important;
+}
+
+.unPagination{
+  margin-top: 30px;
+}

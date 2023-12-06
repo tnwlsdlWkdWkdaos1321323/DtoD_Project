@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.form-control{
+    color: #000 !important;
+    background-color: #E1D9E4 !important;
+    border: none !important;
+}
+
+.anSaBtn{
+    background-color: #50B7CD !important;
+    display: inline-block;
+    margin-right: 10px;
+    color: #0F1A25 !important;
+    border: none !important;
+    padding: 8px 10px !important;
+}
+.anSaLink{
+    background-color: #50B7CD !important;
+    border-radius: 5%;
+    color: #0F1A25 !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    padding: 6px 8px 11px 8px;
+}
+.anSaLink:hover, .anSaBtn:hover{
+    text-decoration: none;
+    background-color: #E72D5A !important;
+    color: #FFFFFF !important;
+}
