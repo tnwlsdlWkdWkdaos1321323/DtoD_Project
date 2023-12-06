@@ -1,0 +1,21 @@
+--<술결 계정 생성>
+
+--권한 부여
+sqlplus system/System1234
+
+-- soju 계정이 있을 경우
+drop user soju cascade;
+
+--admin계정생성   
+create user soju IDENTIFIED by beer
+DEFAULT TABLESPACE users
+TEMPORARY TABLESPACE TEMP;
+
+-- admin 계정 권한부여
+GRANT CONNECT, DBA, RESOURCE TO soju;
+
+--admin계정 접속 
+conn soju/beer;
+
+-- 계정 확인
+show user;

@@ -1,0 +1,52 @@
+desc pay;
+
+drop table pay;
+drop sequence pay_seq;
+
+CREATE TABLE Pay (
+pay_id varchar2(50) not null primary key,
+import_id varchar2(50),
+pname varchar2(100),
+pay_amount int,
+pbuyer varchar2(50),
+paddress varchar2(150),
+pemail varchar2(50),
+per_num varchar2(50),
+per_time date
+);
+
+create sequence pay_seq
+minvalue 1
+maxvalue 999999
+start with 1
+increment by 1
+cache 20;
+
+select * from pay;
+
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, per_time)
+values(pay_seq.nextval, '1234', '1234', 1234, '1234', '1234', '23/11/21');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087478713295', 'merchant_1700885478836', '3개월 구독', 20000, '김서연', '서울특별시 구로구 경인로 572', 'kim0812@gmail.com', '01023457236', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087478713342', 'merchant_1701242352423', '3개월 구독', 20000, '이지우', '부산 수영구 민락수변로 17번길 9', 'cha179@gmail.com', '01045821459', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_084845189751', 'merchant_1845179862345', '12개월 구독', 49000, '김서윤', '서울특별시 용산구 한강대로 15길29', 'yunseo4685@gmail.com', '01075198465', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087184895145', 'merchant_1700887484156', '3개월 구독', 20000, '박서현', '세종 나성로 133-15', 'seohyun@gmail.com', '01075184659', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087471815623', 'merchant_1700487945612', '6개월 구독', 39000, '최민준', '서울특별시 광진구 능동로 18', 'minjun0728@gmail.com', '01081523645', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087471465133', 'merchant_1700885741569', '3개월 구독', 20000, '강도윤', '서울특별시 동작구 상도로34길29', 'doyoon@gmail.com', '01012569454', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087419513546', 'merchant_1700765268496', '3개월 구독', 20000, '오지후', '서울특별시 성북구 보문로35길 54', 'jihoo@gmail.com', '01084512596', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087442342342', 'merchant_1700885235456', '3개월 구독', 20000, '김채원', '서울특별시 영등포구 선유로 343', 'cheawon@gmail.com', '01081546235', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087467456723', 'merchant_1700834545634', '3개월 구독', 20000, '오수아', '서울특별시 성동구 연무장5길 9-16', 'sua@gmail.com', '01071538596', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087472355674', 'merchant_1700817654952', '3개월 구독', 20000, '이지아', '서울특별시 구로구 경인로 572', 'zia8282@gmail.com', '01011471623', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087784513564', 'merchant_1700845216549', '3개월 구독', 20000, '김다은', '서울특별시 동작구 노량진로 10길 27', 'daen@gmail.com', '01078451526', '23/11/28');
+insert into pay(pay_id, import_id, pname, pay_amount, pbuyer, paddress, pemail, per_num, per_time)
+    values('imp_087784594512', 'merchant_1700844815648', '6개월 구독', 39000, '김이은', '서울특별시 동작구 노량진로 6길 6', 'kimeun@gmail.com', '01048563219', '23/11/28');
