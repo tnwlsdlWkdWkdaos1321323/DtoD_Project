@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* banner */
+#mapBanner{
+    height: inherit;
+}
+#mapBanner>img{
+    width: 100vw;
+}
+
+/* mapContent */
+.mapContent{
+    border: 2px solid #E72D5A;
+    padding: 30px;
+    background-color: #FCD9D7;
+}
+#map{
+    width:100%;
+    height:550px;
+    border: 1px solid #E72D5A;
+}
+
+/* mapBoxLeft */
+.mapBoxLeft{
+    border: 2px solid #E72D5A;
+    margin-right: 1.5vw;
+    height: inherit;
+    padding: 30px;
+    background-color: #FCD9D7;
+}
+.mapName, .mapNumber, .mapCall, .mapEmail, .mapCar, .mapSub, .mapBus{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: #917790;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.mapNameEx{
+    display: inline-block;
+}
+
+.mapleftBottom{
+    padding-top: 20px;
+}
+
+.mapHr{
+    color: #E72D5A;
+}
+
+/* mapBoxRight */
+.mapBoxRight{
+    border: 2px solid #E72D5A;
+    height: inherit;
+    margin-left: 1.5vw;
+    padding: 42px 30px;
+    background-color: #FCD9D7;
+}
+.mapImg{
+    display: inline-block;
+    margin-right: 1rem;
+    width: 60px;
+    height: 60px;
+}
+.mapBusExTop, .mapBusExBottom{
+    display: inline-block;
+}
+.mapBusExBottom{
+    margin-left: 10.4rem;
+}
