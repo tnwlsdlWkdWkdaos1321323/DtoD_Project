@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+/* 디자인 하우스: https://noonnu.cc/font_page/89 */
+@font-face {
+    font-family: 'designhouseOTFLight00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+   background-color: #0F1A25 !important;
+   color: #fff !important;
+}
+
+.reply_row{
+    padding: 6% 12%;
+    background-color: #0F1A25;
+}
+
+/* 
+===================================
+list 
+===================================
+*/
+#untitle > .page-header{
+   font-family: 'designhouseOTFLight00', sans-serif;   
+   background-color: #0F1A25 !important;
+   color: #fff !important;
+   margin-top: 100px;
+   margin-bottom: 80px;
+   font-size: 3rem !important;
+}
+
+#unlist>.panel{
+   background-color: #0F1A25 !important;
+}
+#unlist> .col-lg-12{
+   margin-bottom: 100px
+}
+
+.unTr{
+   background-color: #917790 !important;
+   color: #3F133D !important;
+   border: none !important;
+   text-align: center;
+}
+.unTrCon{
+   padding: 15px 0px !important;
+   border: none !important;
+}
+.unTrTitle{
+   text-align: left !important;
+   margin-left: 20px !important;
+   border: none !important;
+   padding: 15px 0px 15px 20px !important;
+}
+
+.unTrList{
+   border-bottom: 1px solid #fff !important;
+}
+.unTd{
+   padding: 15px 0px !important;
+}
+.unTdNum{
+   color: #E72D5A !important;
+   text-align: center;
+   border: none !important;
+   padding: 15px 0px !important;
+}
+.unTdTitle{
+   border: none !important;
+   padding: 15px 0px !important;
+}
+.unTdTitle>a{
+   text-decoration: none !important;
+   color: #fff !important;
+}
+.unTdTitle>a:hover{
+   color: #FCD9D7 !important;
+}
+.unTd{
+   border: none !important;
+   color: #fff !important;
+   text-align: center;
+}
+
+/* 
+===================================
+search 
+===================================
+*/
+#searchForm{
+   margin-top: 20px;
+}
+.unselectBtn{
+   padding: 2px 0px !important;
+   color: #888 !important;
+}
+.unSearchBtn{
+   background-color: #fff !important;
+   border: none !important;
+}
+.unSearchBtn:hover{
+   border: none !important;
+}
+.unBtn{
+   background-color: #50B7CD !important;
+   color: #0F1A25 !important;
+}
+.unBtn:hover{
+   background-color: #E72D5A !important;
+   color: #fff !important;
+}
+
+/* 
+===================================
+paging 
+===================================
+*/
+.paging{
+   display: inline-block !important;
+   width: 530px !important;
+   height: 79px !important;
+   /* padding-bottom: 100px; */
+}
+.paging>.pagination{
+   width: 530px !important;
+   height: 34px !important;
+   margin-top: 20px !important;
+}
+.paging>.pagination>.paginate_button>a{
+   display: inline-block !important;
+   width: 50px;
+   height: 34px !important;
+   text-align: center !important;
+   line-height: 34px !important;
+   background-color: #fff !important;
+   border-right: 1px solid #50B7CD;
+   color: #50B7CD;
+   padding: 0px 10px;
+}
+.paging>.pagination>.paginate_button>a:nth-of-type(1){
+   border-left: 1px solid #50B7CD;
+}
+.paging>.pagination>.paginate_button>a:hover{
+   background-color: #FCD9D7 !important;
+   color: #E72D5A;
+}
+.previous{
+   width: 90px !important;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-right: 1px solid #50B7CD !important;
+}
+.previous>a{
+   background-color: #fff !important;
+   border-radius: 20px 0px 0px 20px;
+   width: 90px !important;
+   
+}
+.next{
+   width: 60px !important;
+}
+.next>a{
+   border-radius: 0px 20px 20px 0px;
+   background-color: #fff !important;
+   width: 60px !important;
+   padding-right: 10px;
+}
+
+#unlist > .panel-default{
+	border-color: #0F1A25 !important;
+}
+
+#unBody{
+	background-color: #0F1A25 !important;
+	color: #0F1A25 !important;
+	border: 1px solid #0F1A25 !important;
+}
+
+.panel-default {
+    border-color: #ddd;
+}

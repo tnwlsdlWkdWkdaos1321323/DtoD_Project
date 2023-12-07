@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* 디자인 하우스: https://noonnu.cc/font_page/89 */
+@font-face {
+    font-family: 'designhouseOTFLight00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-color: #0F1A25 !important;
+	color: #fff !important;
+}
+
+.unGetT{
+	border-bottom: 1px solid #fff !important;
+}
+.unGetTitle{
+	margin-top: 150px;
+	width: 100%;
+	background-color: #0F1A25 !important;
+	border: none;
+	color: #fff;
+	font-size: 32px;
+}
+.unGetDate{
+	color: #888;
+	text-align: right;
+	padding: 0px 10px 10px 0px;
+}
+
+.unGetContent{
+	background-color: #0F1A25 !important;
+	white-space: pre-line;
+	border: none;
+	color: #fff;
+	padding: 50px 20px;
+	font-size: 18px;
+	border-bottom: 1px solid #fff;
+}
+
+.unGetBtn{
+	display: inline-block;
+	margin-top: 40px;
+	width: 96px;
+	height: 39px;
+	background-color: #50B7CD;
+	margin-bottom: 150px;
+	color: #0F1A25;
+}
+.unGetBtn:hover{
+	background-color: #E72D5A;
+	color: #fff;
+}
