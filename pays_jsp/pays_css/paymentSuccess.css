@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* 프리텐다드 : https://noonnu.cc/font_page/694 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+/* 디자인 하우스: https://noonnu.cc/font_page/89 */
+@font-face {
+    font-family: 'designhouseOTFLight00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'Pretendard-Regular', sans-serif !important;
+	background-color: #fff !important;
+	color: #000 !important;
+}
+
+/*.paymentSuccess{
+	height: inherit;
+}*/
+.paSHeader{
+	background-color: #FCD9D7;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.paSLeft{
+	text-align: center;
+	line-height: 9vh;
+	font-size: 1.375rem;
+	color: #888;
+}
+.paSOrder{
+	width: 40px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.paSRight{
+	background-image: url(/resources/images/paymentSuccess_back.svg);
+    height: 9vh;
+    padding-left: 68px;
+    text-align: center;
+    line-height: 9vh;
+    font-size: 1.375rem;
+    color: #fff;
+}
+
+.paSCheckP{
+	text-align: center;
+}
+.paSCheck{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: auto;
+}
+.pasH3{
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.bill{
+	border: solid 5px #E72D5A;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.pasH2{
+	text-align: center;
+	font-size: 2rem !important;
+	font-family: 'designhouseOTFLight00', sans-serif;
+	font-weight: bold !important;
+	border-bottom: 2px solid #E72D5A;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+.billTextParent{
+	padding: 0px 30px 10px 30px;
+}
+.billText{
+	margin: 15px 0px;
+	padding-bottom: 15px;	
+}
+.billBold{
+	font-weight: bold;
+}
+
+.paEncase{
+	margin-bottom: 100px;
+}
+.paAbout, .paBtn{
+	width: 150px;
+	height: 60px;
+	background-color: #E72D5A;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 5px;
+}
+.paAbout{
+	margin-right: 10px;
+}
+.paAbout:hover, .paBtn:hover{
+	background-color: #50B7CD;
+	color: #0F1A25 !important;
+}
